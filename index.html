@@ -21,10 +21,22 @@
         </div>
         <nav class="">
           <ul class="flex gap-5 p-3 justify-end">
-            <li class=" hover:text-gray-300 font-semibold"><a href="index.html">Home</a></li>
-            <li class=" hover:text-gray-300 font-semibold"><a href="#struktur">Struktur</a></li>
-            <li class=" hover:text-gray-300 font-semibold"><a href="#gallery">Gallery</a></li>
-            <li class=" hover:text-gray-300 font-semibold"><a href="#jaket">Jadwal</a></li>
+            <li>
+              <details class="fixed">
+                <summary class=""></summary>
+                <ul class="bg-base-100 rounded-t-none p-2 m-3">
+                  <li class=" hover:text-gray-300 font-semibold"><a href="index.html">Home</a></li>
+                  <li class=" hover:text-gray-300 font-semibold"><a href="#struktur">Struktur</a></li>
+                  <li class=" hover:text-gray-300 font-semibold"><a href="#gallery">Gallery</a></li>
+                  <li class=" hover:text-gray-300 font-semibold"><a href="#jaket">Jadwal</a></li>
+                </ul>
+              </details>
+            </li>
+            <li class="hilang hover:text-gray-300 font-semibold"><a href="index.html">Home</a></li>
+            <li class="hilang hover:text-gray-300 font-semibold"><a href="#struktur">Struktur</a></li>
+            <li class="hilang hover:text-gray-300 font-semibold"><a href="#gallery">Gallery</a></li>
+            <li class="hilang hover:text-gray-300 font-semibold"><a href="#jaket">Jadwal</a></li>
+            
           </ul>
         </nav>
       </div>
@@ -123,7 +135,6 @@
               src="image/p1.jpg" alt="">
           </div>
         </div>
-        
         <div class="swiper-slide row">
           <div class="h-96 flex justify-center items-center column">
             <img class="w-10/12 h-80 object-cover rounded-2xl hover-shadow" onclick="openModal();currentSlide(3)"
@@ -158,7 +169,9 @@
       <div class="mySlides mx-auto max-w-fit w-full">
         <img src="image/p1.jpg" class="h-96 object-cover">
       </div>
-      
+      <div class="mySlides mx-auto max-w-fit w-full">
+        <img src="image/p2.jpg" class="h-96 object-cover">
+      </div>
       <div class="mySlides mx-auto max-w-fit w-full">
         <img src="image/p3.jpg" class="h-96 object-cover">
       </div>
