@@ -196,6 +196,10 @@ body{
 		margin-top: 5rem;
 	  }
 
+	  details summary{
+		opacity: 0;
+	  }
+
 	  @media only screen and (max-width: 576px) {
 		.pic-1{
 			display: none;
@@ -204,10 +208,17 @@ body{
 			position: absolute;
 			top: 0;
 			text-wrap: nowrap;
+			/* opacity: 0; */
 		}
-		nav ul:active{
+		
+		.hilang{
+			opacity: 0;
+		}
+
+		details summary{
 			opacity: 1;
-		}
+		  }
+
 		.home{
 			height: 100vh;
 		}
